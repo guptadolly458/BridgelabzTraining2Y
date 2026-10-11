@@ -1,0 +1,16 @@
+START
+INPUT N
+IF N <= 1
+    PRINT "Not Prime"
+ELSE
+    i = 2
+    WHILE i * i <= N
+        IF N MOD i == 0
+            PRINT "Not Prime"
+            STOP
+        END IF
+        i = i + 1
+    END WHILE
+    PRINT "Prime"
+END IF
+STOP
