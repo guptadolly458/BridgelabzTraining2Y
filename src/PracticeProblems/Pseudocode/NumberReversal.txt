@@ -1,0 +1,12 @@
+START
+INPUT N
+reversed = 0
+
+WHILE N > 0
+    digit = N MOD 10
+    reversed = reversed * 10 + digit
+    N = N DIV 10
+END WHILE
+
+PRINT reversed
+STOP

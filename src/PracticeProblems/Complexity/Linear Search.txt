@@ -1,0 +1,11 @@
+**Best Case: O(1)**
+
+The target 8 is at the first position of the array. Only one comparison is required.
+
+**Worst Case: O(N)**
+
+The target 0 is at the last position. All elements must be checked. If the target is absent, all N elements are checked.
+
+**Average Case: O(N)**
+
+The target can be at any position. On average, approximately half of the elements are checked. Therefore, the time complexity is O(N).

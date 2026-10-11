@@ -1,0 +1,20 @@
+**Division Tree*
+        {8, 61, 2, 3, 4, 0}
+           /          \
+      {8, 61, 2}    {3, 4, 0}
+       /     \        /     \
+     {8}   {61, 2}  {3}    {4, 0}
+            /   \           /  \
+          {61}  {2}       {4}  {0}
+
+**Recurrence Relation**
+
+T(N) = 2T(N/2) + O(N)
+
+At each level, the total work is O(N).
+
+Number of levels = log₂ N
+
+Total work = N × log₂ N
+
+Therefore, the time complexity of Merge Sort is **O(N log N)**.
