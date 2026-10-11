@@ -1,0 +1,21 @@
+**Step-by-Step Search for Target 4**
+
+Array: {0, 2, 3, 4, 8, 61}
+
+Step 1: Middle element = 3. Since 4 > 3, search the right half.
+
+Step 2: Middle element = 8. Since 4 < 8, search the left half.
+
+Step 3: Middle element = 4. Target found!
+
+**Worst-Case Time Complexity**
+
+At every step, Binary Search divides the array into half.
+
+N / 2^k = 1
+
+N = 2^k
+
+k = log₂ N
+
+Therefore, the time complexity is **O(log N)**.
